@@ -17,13 +17,6 @@ What it does:
 Install:
   pip install openai pydantic pandas numpy scipy openpyxl
 
-Run:
-  python sdg_ehi_structured.py --input "/mnt/data/1_Clean_Raw_Data_EHI.xlsx" --n 100 --outdir "sdg_ehi_out"
-
-IMPORTANT:
-- Paste your API key into OPENAI_API_KEY below (as requested).
-- Keep this file private and do NOT commit to git if it contains a real key.
-"""
 
 from __future__ import annotations
 
